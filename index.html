@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <script src="https://kit.fontawesome.com/c4845fdcfa.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script src="./js/pcmenu.js"></script>
+<section id="mobileMenu" class="menu">
+    <i id="left" class="fas fa-chevron-left"></i>
+    <i id="right" onclick="about()" class="fas fa-chevron-right"></i>
+</section>
+
+
+
+<body id="bdy" onload="load()">
+    <script src="./js/nightmode.js"></script>
+    <script src="./js/nextmen.js"></script>
+    <section id="main" class="welcome">
+
+        <h1>TOMÁŠ ŠPALE</h1>
+        <h2>SIMPLE AND PERFECT</h2>
+        <a id="pcbtn" onclick="pcabout()" class="button"><span>Pokračovat</span></a>
+    </section>
+
+    <section id="about" class="AB">
+        <div>
+            <h1>O MNĚ</h1>
+        </div>
+
+        <img src="./profile.png" alt="">
+        <p>Jmenuji se Tomáš Špale, pocházím poblíž města Sedlčany.
+            Narodil jsem se 27.12.2002. (18let) Moje pracovní náplň tvoří
+            z vetšiny front-end řešení a statické webové stránky ale dynamické
+            stránky umím také. rád si hraju s designem. Na této webové stránce
+            najdete mé portfolio. :)
+
+        </p>
+
+       
+    </section>
+
+
+    <section id="srvc" class="services">
+        <div>
+            <h1>Co umím?</h1>
+
+        </div>
+
+
+        <div class="container">
+            <div class="row responsive">
+                <div class="col-md-12">
+                    <div class="skills_section text-center">
+
+                        <div class="skills-area">
+                            <div class="single-skill">
+                                <div class="circlechart" data-percentage="92"><svg class="circle-chart"
+                                        viewBox="0 0 33.83098862 33.83098862" xmlns="http://www.w3.org/2000/svg">
+                                        <circle id="chart1"  class="circle-chart__background" cx="16.9" cy="16.9" r="15.9"></circle>
+                                        <circle id="succ1"  class="circle-chart__circle success-stroke"
+                                            stroke-dasharray="92,100" cx="16.9" cy="16.9" r="15.9"></circle>
+                                        <g class="circle-chart__info"> <text class="circle-chart__percent" x="17.9"
+                                                y="15.5">92%</text><text class="circle-chart__subline" x="16.91549431"
+                                                y="22">
+                                                HTML5
+                                            </text> </g>
+                                    </svg></div>
+                            </div>
+                            <div class="single-skill">
+                                <div class="circlechart" data-percentage="90"><svg class="circle-chart"
+                                        viewBox="0 0 33.83098862 33.83098862" xmlns="http://www.w3.org/2000/svg">
+                                        <circle id="chart2" class="circle-chart__background" cx="16.9" cy="16.9" r="15.9"></circle>
+                                        <circle id="succ2" class="circle-chart__circle success-stroke"
+                                            stroke-dasharray="90,100" cx="16.9" cy="16.9" r="15.9"></circle>
+                                        <g class="circle-chart__info"> <text class="circle-chart__percent" x="17.9"
+                                                y="15.5">90%</text><text class="circle-chart__subline" x="16.91549431"
+                                                y="22">
+                                                SASS
+                                            </text> </g>
+                                    </svg></div>
+                            </div>
+                            <div class="single-skill">
+                                <div class="circlechart" data-percentage="58"><svg id="chart" class="circle-chart"
+                                        viewBox="0 0 33.83098862 33.83098862" xmlns="http://www.w3.org/2000/svg">
+                                        <circle id="chart3" class="circle-chart__background" cx="16.9" cy="16.9" r="15.9"></circle>
+                                        <circle id="succ3" class="circle-chart__circle success-stroke"
+                                            stroke-dasharray="58" cx="16.9" cy="16.9" r="15.9"></circle>
+                                        <g class="circle-chart__info"> <text class="circle-chart__percent" x="17.9"
+                                                y="15.5">58%</text><text class="circle-chart__subline" x="16.91549431"
+                                                y="22">
+                                                JavaScript
+                                            </text> </g>
+                                    </svg></div>
+                            </div>
+                            <div class="single-skill">
+                                <div class="circlechart" data-percentage="82"><svg class="circle-chart"
+                                        viewBox="0 0 33.83098862 33.83098862" xmlns="http://www.w3.org/2000/svg">
+                                        <circle id="chart4" class="circle-chart__background" cx="16.9" cy="16.9" r="15.9"></circle>
+                                        <circle id="succ4" class="circle-chart__circle success-stroke"
+                                            stroke-dasharray="54" cx="16.9" cy="16.9" r="15.9"></circle>
+                                        <g class="circle-chart__info"> <text class="circle-chart__percent" x="17.9"
+                                                y="15.5">54%</text><text class="circle-chart__subline" x="16.91549431"
+                                                y="22">
+                                                PHP
+                                            </text> </g>
+                                    </svg></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+        </div>
+
+        <h1>S čím pracuji?</h1>
+        <div class="prg">
+            <img src="https://img.icons8.com/ios-glyphs/120/000000/adobe-photoshop.png" />
+            <img src="https://img.icons8.com/material-rounded/120/000000/adobe-premiere-pro.png" />
+            <img src="https://img.icons8.com/ios-filled/120/000000/sony-vegas.png"/>
+            <img src="https://img.icons8.com/ios-filled/120/000000/github.png"/>
+            <img src="https://img.icons8.com/ios-filled/120/000000/office-365.png" />
+        </div>
+
+        
+
+    </section>
+
+<section id="con" class="contact">
+
+<h1>KONTAKT?</h1>
+
+<h2>Už se teším!</h2>
+<div class="ico">
+  <a id="ikon1" href="https://www.instagram.com/tomas_oxy.dll/">  <i class="fab fa-instagram-square"></i> </a> 
+    <a id="ikon2" href="tel:+420 735 170 378">  <i class="fas fa-phone-square-alt"></i> </a>  
+    <a id="ikon3" onclick="email()"> <i class="fas fa-envelope-square"></i> </a>   
+  
+  <a id="ikon4" href="https://www.linkedin.com/in/tom%C3%A1%C5%A1-%C5%A1pale-485575161/"> <i class="fab fa-linkedin"></i> </a>  
+
+</div>
+<p>Každého kontaktu s vámi si moc vážím, v případě jakéhokoliv dotazu. Nebojte 
+    se mě kontaktovat. :)
+</p>
+
+
+
+
+</section>
+
+<div id="menupc" class="PCmenu">
+
+    <a onclick="pcabout()" ><i  id="menu1" class="fas fa-address-card"></i>O mně </a>
+    <a onclick="pcskill()" ><i id="menu2" class="fas fa-atom"></i>Zkušenosti</a>
+    
+    <a ><i id="menu3" class="fas fa-phone"></i> Kontakt</a>
+
+
+
+
+</div>
+
+
+<script>
+    var now = new Date().getHours();
+ 
+ if (now > 24) {
+
+    night();
+    let timerInterval
+Swal.fire({
+  title: 'Noční Režim!',
+  html: 'Je už pozdě! Chceme šetřit vaše oči :)',
+  timer: 3000,
+  timerProgressBar: true,
+  didOpen: () => {
+    Swal.showLoading()
+    const b = Swal.getHtmlContainer().querySelector('b')
+    timerInterval = setInterval(() => {
+     
+    }, 100)
+  },
+  willClose: () => {
+    clearInterval(timerInterval)
+  }
+}).then((result) => {
+  /* Read more about handling dismissals below */
+  if (result.dismiss === Swal.DismissReason.timer) {
+    console.log('I was closed by the timer')
+  }
+})
+setInterval(checkTime, 1000);
+
+
+
+} else {
+
+   
+}
+</script>
+
+
+
+
+<script>
+    function email() {
+ 
+        Swal.fire({
+  title: 'Email:',
+  text:     'spaletomas@seznam.cz',
+
+})
+        
+    }
+ 
+</script>
+
+
+
+</body>
+
+
+<script>
+ 
+</script>
+
+
+
+
+<script>
+    function load() {
+        document.getElementById("main").style.display = "flex";
+        setTimeout(function () {
+
+            document.getElementById("main").style.opacity = "1";
+        }, 700);
+
+
+
+    }
+    
+
+</script>
+
+</html>
