@@ -1,0 +1,504 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.PCmenu {
+  -webkit-transition: opacity 0.7s linear;
+  transition: opacity 0.7s linear;
+  position: fixed;
+  bottom: 0;
+  background-color: #2B3544;
+  opacity: 0;
+  display: none;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+  width: 100%;
+  height: 10vh;
+  background-color: #2B3544;
+}
+
+.PCmenu a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  font-family: 'Raleway', sans-serif;
+}
+
+.PCmenu i {
+  color: white;
+  font-size: 2.5em;
+}
+
+.PCmenu #flagged {
+  -webkit-transition: opacity 0.7s linear;
+  transition: opacity 0.7s linear;
+  color: #3498db;
+}
+
+.menu {
+  -webkit-transition: opacity 0.7s linear;
+  transition: opacity 0.7s linear;
+  position: fixed;
+  bottom: 0;
+  background-color: #2B3544;
+  width: 100%;
+  height: 8vh;
+  display: none;
+  font-size: 3em;
+  color: white;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.welcome {
+  opacity: 1;
+  -webkit-transition: opacity 0.7s linear;
+  transition: opacity 0.7s linear;
+  max-width: 100%;
+  height: 95vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+}
+
+.welcome h1 {
+  font-size: 2.5em;
+  font-family: 'Raleway', sans-serif;
+}
+
+.welcome h2 {
+  margin-top: -15px;
+  font-size: 2em;
+  font-family: 'Barlow Condensed', sans-serif;
+}
+
+.welcome h3 {
+  margin-top: -10px;
+  font-size: 1.2em;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.AB {
+  width: 100%;
+  min-height: 95vh;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  opacity: 0;
+  -webkit-transition: opacity 0.7s linear;
+  transition: opacity 0.7s linear;
+  display: none;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+}
+
+.AB h1 {
+  font-size: 3em;
+  font-family: 'Barlow Condensed', sans-serif;
+}
+
+.AB img {
+  width: 300px;
+  height: 300px;
+}
+
+.AB p {
+  width: 80%;
+}
+
+.services {
+  width: 100%;
+  min-height: 95vh;
+  opacity: 0;
+  -webkit-transition: opacity 0.7s linear;
+  transition: opacity 0.7s linear;
+  display: none;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+}
+
+.services h1 {
+  font-size: 2em;
+  font-family: 'Barlow Condensed', sans-serif;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.contact {
+  -webkit-transition: opacity 0.7s linear;
+  transition: opacity 0.7s linear;
+  opacity: 0;
+  width: 100%;
+  min-height: 95vh;
+  display: none;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+}
+
+.contact h1 {
+  font-size: 3em;
+  font-family: 'Barlow Condensed', sans-serif;
+}
+
+.contact h2 {
+  margin-top: -25px;
+  font-size: 1.5em;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.contact .ico {
+  font-size: 3em;
+}
+
+.contact .ico a {
+  text-decoration: none;
+  color: #2B3544;
+}
+
+.contact p {
+  text-align: center;
+}
+
+:root {
+  --text: #2B3544;
+  --background-color: #F6F8FF;
+}
+
+.button {
+  position: relative;
+  display: inline-block;
+  padding: 10px 30px;
+  border: 2px solid var(--text);
+  border-radius: 5px;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 1em;
+  cursor: pointer;
+  zoom: 1.5;
+}
+
+.button:visited {
+  color: inherit;
+}
+
+.button:before {
+  content: '';
+  position: absolute;
+  top: 25%;
+  left: -3px;
+  right: -3px;
+  height: 50%;
+  background: var(--background-color);
+  -webkit-transition: background-color 1s, -webkit-transform 0.5s ease-in-out;
+  transition: background-color 1s, -webkit-transform 0.5s ease-in-out;
+  transition: transform 0.5s ease-in-out, background-color 1s;
+  transition: transform 0.5s ease-in-out, background-color 1s, -webkit-transform 0.5s ease-in-out;
+  -webkit-transform: scaleY(1);
+          transform: scaleY(1);
+}
+
+.button:hover::before {
+  -webkit-transform: scaleY(0);
+          transform: scaleY(0);
+}
+
+.button:after {
+  content: '';
+  position: absolute;
+  left: 15%;
+  top: -3px;
+  bottom: -3px;
+  width: 70%;
+  background: var(--background-color);
+  -webkit-transition: background-color 1s, -webkit-transform 0.5s ease-in-out;
+  transition: background-color 1s, -webkit-transform 0.5s ease-in-out;
+  transition: transform 0.5s ease-in-out, background-color 1s;
+  transition: transform 0.5s ease-in-out, background-color 1s, -webkit-transform 0.5s ease-in-out;
+  -webkit-transform: scaleX(1);
+          transform: scaleX(1);
+}
+
+.button:hover::after {
+  -webkit-transform: scaleX(0);
+          transform: scaleX(0);
+}
+
+.button span {
+  color: var(--text);
+  position: relative;
+  z-index: 3;
+}
+
+body {
+  min-height: 100vh;
+  font-family: 'Inter', Arial;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: var(--background-color);
+}
+
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+}
+
+.circle-chart {
+  width: 150px;
+  height: 150px;
+}
+
+.circle-chart__circle {
+  stroke: #00acc1;
+  stroke-width: 2;
+  stroke-linecap: square;
+  fill: none;
+  animation: circle-chart-fill 2s reverse;
+  /* 1 */
+  -webkit-transform: rotate(-90deg);
+          transform: rotate(-90deg);
+  /* 2, 3 */
+  -webkit-transform-origin: center;
+          transform-origin: center;
+  /* 4 */
+}
+
+/**
+   * 1. Rotate by -90 degree to make the starting point of the
+   *    stroke the top of the circle.
+   * 2. Scaling mirrors the circle to make the stroke move right
+   *    to mark a positive chart value.
+   * 3. Using CSS transforms on SVG elements is not supported by Internet Explorer
+   *    and Edge, use the transform attribute directly on the SVG element as a
+   * .  workaround.
+   */
+.circle-chart__circle--negative {
+  -webkit-transform: rotate(-90deg) scale(1, -1);
+          transform: rotate(-90deg) scale(1, -1);
+  /* 1, 2, 3 */
+}
+
+.circle-chart__background {
+  stroke: #efefef;
+  stroke-width: 2;
+  fill: none;
+}
+
+.circle-chart__info {
+  -webkit-animation: circle-chart-appear 2s forwards;
+          animation: circle-chart-appear 2s forwards;
+  opacity: 0;
+  -webkit-transform: translateY(0.3em);
+          transform: translateY(0.3em);
+}
+
+.circle-chart__percent {
+  -o-table-baseline: central;
+  text-anchor: middle;
+  font-size: 8px;
+}
+
+.circle-chart__subline {
+  -o-table-baseline: central;
+  text-anchor: middle;
+  font-size: 3px;
+}
+
+.success-stroke {
+  stroke: #00C851;
+}
+
+.warning-stroke {
+  stroke: #ffbb33;
+}
+
+.danger-stroke {
+  stroke: #ff4444;
+}
+
+@-webkit-keyframes circle-chart-fill {
+  to {
+    stroke-dasharray: 0 100;
+  }
+}
+
+@keyframes circle-chart-fill {
+  to {
+    stroke-dasharray: 0 100;
+  }
+}
+
+@-webkit-keyframes circle-chart-appear {
+  to {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+}
+
+@keyframes circle-chart-appear {
+  to {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+}
+
+.skills {
+  color: black;
+}
+
+.skills_section {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.skill-head {
+  margin: 80px 0;
+}
+
+.skill-head h1 {
+  font-size: 60px;
+  font-weight: 700;
+}
+
+.skill-head p {
+  margin-bottom: 10px;
+}
+
+.skills-area {
+  margin-top: 5%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.single-skill {
+  width: 25%;
+  margin-bottom: 80px;
+}
+
+.success-stroke {
+  stroke: #2c3e50;
+}
+
+.circle-chart__background {
+  stroke: #ede4e4;
+  stroke-width: 1;
+}
+
+#pcbtn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  .AB {
+    -webkit-box-pack: none;
+        -ms-flex-pack: none;
+            justify-content: none;
+    min-height: 92vh;
+  }
+  .services {
+    min-height: 92vh;
+  }
+  .menu {
+    display: none;
+  }
+  .skill-head h1 {
+    font-size: 30px;
+  }
+  .skill-icon {
+    width: 20%;
+  }
+  .skill-icon i {
+    font-size: 70px;
+  }
+  .single-skill {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column;
+            flex-flow: column;
+    width: 50%;
+  }
+  .circle-chart {
+    width: 130px;
+    height: 130px;
+  }
+  .prg img {
+    width: 64px;
+    height: 64px;
+  }
+}
